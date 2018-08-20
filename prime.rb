@@ -9,8 +9,7 @@ def prime?(integer)
     elsif integer % divisor == 0
       return false
     end
-    else 
-      return true
+    true
     end
   end
 end
