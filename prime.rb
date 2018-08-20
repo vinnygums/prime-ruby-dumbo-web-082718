@@ -8,6 +8,5 @@ def prime?(integer)
     else 
       return true
     end
-    return false
   end
 end
