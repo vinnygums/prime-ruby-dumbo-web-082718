@@ -6,13 +6,13 @@ def prime?(integer)
   end
   
   (2..integer).to_a.each do |divisor|
-    binding.pry
     if integer == 2
       return true
-    elsif integer % divisor != 0
+    elsif integer % divisor == 0
       return false
     else 
       return true
     end
+    binding.pry
   end
 end
