@@ -5,7 +5,7 @@ def prime?(integer)
   end
   (2..integer).each do |divisor|
       return false
-    elsif integer == 2
+    if integer == 2
       return true
     elsif integer % divisor == 0
       return false
