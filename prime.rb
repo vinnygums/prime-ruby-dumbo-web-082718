@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(integer)
-  if integer <= 0
+  if integer <= 1
     return false
   end
   (2..integer).each do |divisor|
