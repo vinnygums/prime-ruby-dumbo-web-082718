@@ -12,6 +12,6 @@ def prime?(integer)
     else 
       return true
     end
-    binding.pry
+  end
   end
 end
