@@ -4,7 +4,7 @@ def prime?(integer)
     if integer == 2
       return true
       
-    elsif integer % divisor == 0 || integer
+    elsif integer % divisor == 0 || integer < 0
       return false
     else 
       return true
