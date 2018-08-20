@@ -7,7 +7,8 @@ def prime?(integer)
     (2..integer-1).to_a.each do |divisor|
     if integer % divisor == 0
       return false
-    else 
+    else
+      binding.pry
       return true
     end
   end
